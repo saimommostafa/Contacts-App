@@ -37,15 +37,15 @@ def start():
                 delete_contact()
 
             elif option == "5":
-                sys.exit("\nThank you for using Contacts.\n")
+                sys.exit("\nThank you for using Contacts by S. M. Emon.\n")
 
             else:
                 print("\nInvalid option! Please enter a number from 1 to 5.")
 
         except EOFError:
-            sys.exit("\nExiting the program...")
+            sys.exit("\nExiting the program due to EOFError...")
         except KeyboardInterrupt:
-            sys.exit("\nThank you for using Contacts.\n")
+            sys.exit("\nThank you for using Contacts by S. M. Emon.\n")
 
 
 # Load contacts from file into memory
