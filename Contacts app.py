@@ -93,7 +93,7 @@ def new_contact():
 
         else:
             print(
-                "Please separate the name and phone with a comma (e.g., Emon, 1234567890)."
+                "Please separate name and phone with a comma (e.g., Emon, 1234567890)."
             )
 
 
