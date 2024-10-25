@@ -185,5 +185,4 @@ def dlt_confirmation():
             continue
 
 
-# Start the program
 start()
